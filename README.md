@@ -1,4 +1,4 @@
-# The Factory Pattern
+# The Abstract Factory Pattern
 Provides an interface for creating famiies of related or dependent objects without specifiying their concrete classes.
 
 Separate screation with generic usage but creation procress having different process.
