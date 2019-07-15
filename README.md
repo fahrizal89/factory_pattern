@@ -1,6 +1,4 @@
-# The Abstract Factory Pattern
-Provides an interface for creating famiies of related or dependent objects without specifiying their concrete classes.
-
+# The Factory Pattern
 Separate screation with generic usage but creation procress having different process.
 
 For learning The Factory Pattern, I create program "Noodles Factory" to create noodles.
@@ -9,7 +7,20 @@ Basically, create noodles can use:
 ```
 if(type.equals(...)
 ```
-But if we want to create store more than one, it should create redundant code
+But if we want to create store more than one, it should create redundant code.
+
+
+1. Simple Factory
+
+Decouple of creating object in another class, so any object can create using simple Factory
+
+2. Method Factory Pattern
+
+Define interface for creating an object, but letst subclass decide which class to instantiate.
+
+3. Abstract Factory Pattern
+
+Provides an interface for creating famiies of related or dependent objects without specifiying their concrete classes.
 
 Creator Class:
 
