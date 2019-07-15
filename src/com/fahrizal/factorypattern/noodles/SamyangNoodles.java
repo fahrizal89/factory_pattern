@@ -1,4 +1,4 @@
-package com.fahrizal.factorypattern.noodles.indonesia;
+package com.fahrizal.factorypattern.noodles;
 
 import com.fahrizal.factorypattern.factory.NoodlesIngredientFactory;
 import com.fahrizal.factorypattern.noodles.Noodles;

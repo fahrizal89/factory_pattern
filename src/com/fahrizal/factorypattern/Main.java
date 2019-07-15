@@ -15,11 +15,14 @@ public class Main {
         NoodleStore indonesianStore = new IndonesiaNoodleStore();
         Noodles indonesianNoodles = indonesianStore.orderNoodles(SAMYANG);
         System.out.println("thow away water? "+indonesianNoodles.isThrowAwayWater);
-
         System.out.println("===================");
 
         NoodleStore koreanStore = new KoreaNoodleStore();
-        Noodles koreanNoodles = koreanStore.orderNoodles(GORENG);
-        System.out.println("thow away water? "+koreanNoodles.isThrowAwayWater);
+        Noodles koreanGorengNoodles = koreanStore.orderNoodles(GORENG);
+        System.out.println("thow away water? "+koreanGorengNoodles.isThrowAwayWater);
+        System.out.println("===================");
+
+        Noodles koreanIgaBakarNoodles = koreanStore.orderNoodles(IGA_BAKAR);
+        System.out.println("thow away water? "+koreanIgaBakarNoodles.isThrowAwayWater);
     }
 }

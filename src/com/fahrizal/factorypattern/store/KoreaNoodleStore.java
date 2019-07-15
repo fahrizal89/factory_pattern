@@ -3,9 +3,9 @@ package com.fahrizal.factorypattern.store;
 import com.fahrizal.factorypattern.factory.KoreaNoodlesIngredientsFactory;
 import com.fahrizal.factorypattern.factory.NoodlesIngredientFactory;
 import com.fahrizal.factorypattern.noodles.Noodles;
-import com.fahrizal.factorypattern.noodles.indonesia.GorengNoodles;
-import com.fahrizal.factorypattern.noodles.indonesia.IgaBakarNoodles;
-import com.fahrizal.factorypattern.noodles.indonesia.SamyangNoodles;
+import com.fahrizal.factorypattern.noodles.GorengNoodles;
+import com.fahrizal.factorypattern.noodles.IgaBakarNoodles;
+import com.fahrizal.factorypattern.noodles.SamyangNoodles;
 
 public class KoreaNoodleStore extends NoodleStore {
 
