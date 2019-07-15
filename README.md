@@ -41,6 +41,22 @@ public class SimpleNoodleFactory(){
 
 Define interface for creating an object, but letst subclass decide which class to instantiate.
 ```
+public abstract class NoodleStore {
+
+    public Noodles orderNoodles(String type){
+        Noodles noodles;
+        noodles = createNoodles(type);
+
+        noodles.mix();
+        noodles.drainWell();
+        return noodles;
+    }
+
+    abstract Noodles createNoodles(String type);
+}
+```
+
+```
 public class IndonesiaNoodleStore extends NoodleStore {
     @Override
     Noodles createNoodles(String type) {
